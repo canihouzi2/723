@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+
+   <com.example.lenovo.myapplication.view.activity.MyView
+       android:id="@+id/mv_view"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        app:myview="0"
+       />
+
+</LinearLayout>
